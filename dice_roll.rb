@@ -4,5 +4,5 @@
 
 def roll
   dice_numbers = Array (1..6)
-  return dice_numbers[rand(6)]
+  return dice_numbers[rand(1..6)]
 end
